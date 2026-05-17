@@ -1,0 +1,67 @@
+@import "kde-accent.css";
+/* =========================================================
+ *  Tables
+ *  ========================================================= */
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid var(--divider-color);
+    padding: 6px 10px;
+}
+
+th {
+    background: var(--background-secondary);
+}
+
+/* =========================================================
+ *  Code Blocks
+ *  ========================================================= */
+
+code,
+.cm-inline-code {
+    background: rgb(243,244,245);
+    border-radius: 4px;
+    padding: 1px 4px;
+}
+
+pre {
+    border-radius: var(--radius-m);
+    border: 1px solid var(--divider-color);
+}
+
+/* =========================================================
+ *  Graph View
+ *  ========================================================= */
+
+.graph-view.color-fill {
+    color: rgba(61,174,233,0.85);
+}
+
+/* =========================================================
+ *  Modal Windows
+ *  ========================================================= */
+
+.modal {
+    border-radius: 10px;
+    border: 1px solid var(--divider-color);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+/* =========================================================
+ *  KDE-like subtle animations
+ *  ========================================================= */
+
+button,
+.workspace-tab-header,
+.nav-file-title,
+.nav-folder-title,
+.menu-item {
+    transition:
+    background-color 70ms linear,
+    border-color 70ms linear,
+    color 70ms linear;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Breeze Light KDE",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "author": "C. Brandt",
+  "authorUrl": "https://github.com/corbrandt",
+  "description": "Integration of KDE PLasma's Breeze Theme (Light) for Obsidian"
+}
